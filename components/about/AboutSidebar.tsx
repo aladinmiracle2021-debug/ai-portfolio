@@ -1,29 +1,19 @@
 "use client";
 
-
-export default function AboutSidebar(){
-
-
+export default function AboutSidebar() {
   return (
-
     <aside
       className=" fixed left-3 h-fit hidden lg:block"
-      style={{ top: 'calc(50vh - 82px)' }}
+      style={{ top: "calc(50vh - 82px)" }}
     >
-
-      <nav
-        className=" space-y-6 border-l border-white/10 pl-6"
-      >
+      <nav className=" space-y-6 border-l border-white/10 pl-6">
         <a
           href="#introduction"
           className=" block text-gray-400 hover:text-cyan-400"
         >
           Introduction
         </a>
-        <a
-          href="#skills"
-          className=" block text-gray-400 hover:text-cyan-400"
-        >
+        <a href="#skills" className=" block text-gray-400 hover:text-cyan-400">
           Technical Skills
         </a>
         <a
@@ -38,13 +28,7 @@ export default function AboutSidebar(){
         >
           Education
         </a>
-
-
       </nav>
-
-
     </aside>
-
   );
-
 }

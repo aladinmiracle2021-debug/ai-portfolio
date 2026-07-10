@@ -85,7 +85,7 @@ function AICore() {
 export default function AIEngine() {
   return (
     <motion.div
-      className="w-full h-[500px] pointer-events-none max-[767px]:w-[300px]"      
+      className="w-full h-[500px] pointer-events-none max-[767px]:w-[300px]"
       initial={{
         opacity: 0,
       }}
@@ -102,7 +102,6 @@ export default function AIEngine() {
         }}
         resize={{ scroll: true, debounce: { scroll: 50, resize: 0 } }}
       >
-
         <ambientLight intensity={0.5} />
 
         <pointLight position={[3, 3, 3]} intensity={5} color="#22d3ee" />

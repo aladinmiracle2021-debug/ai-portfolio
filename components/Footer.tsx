@@ -18,10 +18,7 @@ export default function Footer() {
             LinkedIn
           </a>
 
-          <a
-            href="#"
-            className="text-gray-400 transition hover:text-white"
-          >
+          <a href="#" className="text-gray-400 transition hover:text-white">
             GitHub
           </a>
 

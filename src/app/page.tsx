@@ -24,21 +24,13 @@ export default function Home() {
 
       <Navbar />
 
-      <main
-        id="main-content"
-        className="flex flex-1 flex-col"
-        tabIndex={-1}
-      >
+      <main id="main-content" className="flex flex-1 flex-col" tabIndex={-1}>
         <Hero />
         <div className="flex flex-col bg-black">
           {contentSections.map(({ id, Component }, index) => (
             <div
               key={id}
-              className={
-                index > 0
-                  ? "border-t border-gray-800/60"
-                  : undefined
-              }
+              className={index > 0 ? "border-t border-gray-800/60" : undefined}
             >
               <Component />
             </div>

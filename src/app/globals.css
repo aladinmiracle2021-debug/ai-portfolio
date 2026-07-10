@@ -22,9 +22,5 @@ body {
   background-repeat: no-repeat;
   color: var(--foreground);
 
-  font-family:
-    Inter,
-    Arial,
-    Helvetica,
-    sans-serif;
+  font-family: Inter, Arial, Helvetica, sans-serif;
 }

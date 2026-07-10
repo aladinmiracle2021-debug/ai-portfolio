@@ -12,9 +12,8 @@ export default function Contact() {
         </h2>
 
         <p className="mx-auto mt-5 max-w-2xl text-base leading-7 text-gray-400 sm:text-lg">
-          Interested in building AI-powered applications,
-          automation systems, or scalable software solutions?
-          Feel free to get in touch.
+          Interested in building AI-powered applications, automation systems, or
+          scalable software solutions? Feel free to get in touch.
         </p>
 
         <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row sm:gap-4">
