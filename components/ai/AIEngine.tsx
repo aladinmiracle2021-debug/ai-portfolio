@@ -85,7 +85,7 @@ function AICore() {
 export default function AIEngine() {
   return (
     <motion.div
-      className="w-100vw h-[500px] pointer-events-none"      
+      className="w-full h-[500px] pointer-events-none max-[767px]:w-[300px]"      
       initial={{
         opacity: 0,
       }}
