@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+:root {
+  --background: #050505;
+  --foreground: #f8fafc;
+  --nav-height: 4.5rem;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: var(--nav-height);
+}
+
+body {
+  background:
+    radial-gradient(
+      circle at 20% 20%,
+      rgba(34, 211, 238, 0.08),
+      transparent 35%
+    ),
+    var(--background);
+  background-repeat: no-repeat;
+  color: var(--foreground);
+
+  font-family:
+    Inter,
+    Arial,
+    Helvetica,
+    sans-serif;
+}
