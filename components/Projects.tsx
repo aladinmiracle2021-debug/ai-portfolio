@@ -39,10 +39,7 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section
-      id="projects"
-      className="bg-black py-14 sm:py-20 lg:py-24"
-    >
+    <section id="projects" className="bg-black py-14 sm:py-20 lg:py-24">
       <Container>
         <h2 className="text-center text-3xl font-bold text-white sm:text-4xl">
           Featured Projects

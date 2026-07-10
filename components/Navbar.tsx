@@ -15,9 +15,7 @@ export default function Navbar() {
 
   return (
     <nav className="fixed top-0 left-0 z-50 w-full border-b border-gray-800 bg-black/70 backdrop-blur-lg">
-      <Container
-        className="flex min-h-[var(--nav-height)] items-center justify-between py-3 sm:py-4"
-      >
+      <Container className="flex min-h-[var(--nav-height)] items-center justify-between py-3 sm:py-4">
         <a href="/" className="text-xl font-bold text-white">
           🐍 Python | 🧠 AI | ⚙️ Automation
         </a>
@@ -38,14 +36,11 @@ export default function Navbar() {
             download
             className=" group flex items-center gap-2 px-5 py-2.5 rounded-xl bg-cyan-500/10 border border-cyan-400/30 text-cyan-300 transition-all duration-300 hover:bg-cyan-400/20 hover:border-cyan-300 hover:shadow-[0_0_25px_rgba(34,211,238,0.35)] "
           >
-
             <Download
               size={18}
               className=" transition-transform duration-300 group-hover:translate-y-1 "
             />
-
             Resume
-
           </a>
         </div>
 
