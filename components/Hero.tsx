@@ -86,9 +86,9 @@ export default function Hero() {
           </h1>
 
           <p className="mt-6 text-lg leading-8 text-gray-400">
-            I'm My name. Design and build production-ready AI applications,
-            LLM-powered platforms, automation workflows, and scalable backend
-            systems.
+            I'm Lucas Soriano. Design and build production-ready AI
+            applications, LLM-powered platforms, automation workflows, and
+            scalable backend systems.
           </p>
 
           <div className="flex flex-wrap gap-5 justify-center mt-10">
@@ -127,7 +127,7 @@ export default function Hero() {
               href="/about"
               className=" flex items-center gap-2 px-8 py-4 rounded-2xl border border-white/20 bg-white/5 backdrop-blur-xl text-white font-semibold transition-all duration-300 hover:border-cyan-400 hover:text-cyan-300 hover:bg-white/10 hover:scale-105 "
             >
-              About-My Name
+              About-Lucas Soriano
             </a>
           </div>
 
