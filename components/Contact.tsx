@@ -25,7 +25,7 @@ export default function Contact() {
           </a>
 
           <a
-            href="https://www.linkedin.com/in/milan-marinkovic-0a020736b"
+            href="https://www.linkedin.com/in/lucas-soriano-998570421"
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-xl border border-gray-700 px-6 py-3 text-gray-200 transition hover:bg-gray-900"

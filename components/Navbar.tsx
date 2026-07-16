@@ -8,6 +8,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   const links = [
+    { name: "Home", href: "/" },
     { name: "About Me", href: "/about" },
     { name: "Projects", href: "/#projects" },
     { name: "Contact", href: "/#contact" },
@@ -15,7 +16,7 @@ export default function Navbar() {
 
   return (
     <nav className="fixed top-0 left-0 z-50 w-full border-b border-gray-800 bg-black/70 backdrop-blur-lg">
-      <Container className="flex min-h-[var(--nav-height)] items-center justify-between py-3 sm:py-4">
+      <Container className="flex min-h-(--nav-height) items-center justify-between py-3 sm:py-4">
         <a href="/" className="text-xl font-bold text-white">
           🐍 Python | 🧠 AI | ⚙️ Automation
         </a>
@@ -71,7 +72,7 @@ export default function Navbar() {
           <a
             href="/resume.pdf"
             download
-            className="rounded-lg bg-gradient-to-r from-blue-500 to-purple-600 px-5 py-2 text-center text-white"
+            className="rounded-lg bg-linear-to-r from-blue-500 to-purple-600 px-5 py-2 text-center text-white"
           >
             Download Resume
           </a>
